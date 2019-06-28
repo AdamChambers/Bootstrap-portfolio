@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>About | Adam Chambers</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<style>
+header {
+    background-color:teal;
+    color: #ccc;
+    text-align: center;
+    margin: 10px;
+    
+    
+}
+ nav {
+    background-color: white;
+    color: slategrey;
+    text-align: center;
+    
+    
+}
+h1 {
+    color: teal;
+
+}
+a {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    
+    
+}
+nav a{
+    color: #ccc;
+}
+section {
+    color: grey;
+    background-color: seashell;
+    font-family: sans-serif;
+    padding: 10px;
+}
+footer {
+    background-color: grey;
+    color: #ccc;
+}
+.imagee {
+    text-align: center;
+}
+\
+
+
+</style>
+
+<body style="background-color: lightgrey;">
+
+    <header id="masthead">
+        
+           
+            <a href="index.html" id="logo" style="font-size: 30px;">Adam Chambers</a>
+            
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        
+    </header>
+
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>About Me</h1>
+            <div class="imagee">
+            <img src="data:image/png;base64,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" class="auth-image" alt="Your Name">
+            </div>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc
+                porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui
+                massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus
+                vitae sollicitudin consectetur.</p>
+
+            <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id
+                eros iaculis, pulvinar quam eget, egestas mauris.</p>
+
+            <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor
+                et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+        </section>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            Copyright &copy;
+        </div>
+    </footer>
+</body>
