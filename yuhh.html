@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+  .header {
+    background-color: slategrey;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    font-size: 40px;
+    font-family: fantasy;
+    color: #ccc;
+    padding-top: 10px;
+
+  }
+
+  body {
+    background-color: palegreen;
+  }
+
+  .row {
+    border-style: solid;
+    border-color: black;
+    border-top-width: 0px;
+    text-align: center;
+
+  }
+
+  .col-md {
+    background-color: wheat;
+  }
+
+  .col-sm-6 {
+    background-color: salmon;
+    text-align: center;
+  }
+
+  .col-lg {
+    background-color: forestgreen;
+    color: rgb(233, 233, 233);
+    text-align: center;
+  }
+
+  .col-sm-2 {
+    background-color: paleturquoise;
+    text-align: center;
+  }
+
+  .col-sm-5 {
+    background-color: powderblue;
+    text-align: center;
+  }
+
+  .col-md-5 {
+    background-color: palegoldenrod;
+    text-align: center;
+  }
+
+  nav {
+    background-color: palegoldenrod;
+    font-style: normal;
+    color: rebeccapurple;
+    border-style: groove;
+    border-color: black;
+    border-bottom-style: none;
+  }
+  @media screen and (max-width: 500px){
+    
+  }
+</style>
+<title>Adam's Bootstrap Practice</title>
+<nav>
+  <a href="https://www.google.com/">| Google |</a>
+  <a href="https://www.amazon.com/"> Amazon |</a>
+  <a href="https://www.w3schools.com/"> Web Dev Help |</a>
+</nav>
+<div class="header">
+  <header>
+    Very Cool Header
+  </header>
+</div>
+
+<body>
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-sm-6">
+        <strong>One of three columns</strong>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum</p>
+      </div>
+
+      <div class="col-md">
+        <strong>One of three columns</strong>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum</p>
+
+      </div>
+
+      <div class="col-lg">
+
+        <strong>One of three columns</strong>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum</p>
+
+      </div>
+    </div>
+    <div class="row">
+      <div class=col-sm-2>
+        <h3>Section 1 Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum</p>
+      </div>
+      <div class=col-sm-5>
+        <h3>Section 2 Title</h3>
+        <img
+          src="data:image/png;base64,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"
+          alt="couldn't load image">
+        <p> in culpa qui officiaupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborumExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+          id est laborumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+          eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+          esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborumExcepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum</p>
+      </div>
+      <div class=col-md-5>
+        <h3>Section 3 Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+          et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+          id est laborum</p>
+      </div>
+    </div>
+  </div>
+  
+</body>
+  
+</html>
