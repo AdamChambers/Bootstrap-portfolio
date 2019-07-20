@@ -26,7 +26,6 @@ header {
 }
 h1 {
     color: teal;
-
 }
 a {
     color: white;
@@ -51,9 +50,34 @@ footer {
 .imagee {
     text-align: center;
 }
-\
-
-
+@media only screen and (min-width : 480px) {
+/*mobile first for phones */
+body {
+    max-width:767px;
+    min-width:480px;
+}
+}
+@media only screen and (min-width : 768px) {
+/*mobile first for tablets */
+body {
+    max-width:767px;
+    min-width:480px;
+}
+}
+@media only screen and (min-width : 992px) {
+/*mobile first for desktops */
+body {
+    max-width:767px;
+    min-width:480px;
+}
+}
+@media only screen and (min-width : 1200px) {
+/*mobile first for wide screens (if youre into that)*/
+body {
+    max-width:767px;
+    min-width:480px;
+}
+}
 </style>
 
 <body style="background-color: lightgrey;">
@@ -63,7 +87,7 @@ footer {
            
             <a href="index.html" id="logo" style="font-size: 30px;">Adam Chambers</a>
             
-            <nav>
+            <nav id="nav">
                 <a href="index.html">About</a>
                 <a href="portfolio.html">Portfolio</a>
                 <a href="contact.html">Contact</a>
